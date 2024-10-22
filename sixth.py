@@ -17,7 +17,6 @@ for i in "1234":
     for j in "12345":
         for k in input_text:
             input_args.append(i+j+k)
-
 class storage:
     def __init__(self) -> None:self.status:list[int]=[0]*20+[1]*30
     def display(self)->None:display(self.status)
